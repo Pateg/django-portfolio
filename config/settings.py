@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nsxdn0j2ha4klw)q6hs@u_hpj8ch&c8&15o=93e^k9!jbc8#bs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['pateg.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,7 +120,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+MIDDLEWARE = ['whitenoise.middleware.WhiteNoiseMiddleware'] + MIDDLEWARE
 # Email
 # https://docs.djangoproject.com/en/6.1/topics/email/#topic-email-configuration
 
