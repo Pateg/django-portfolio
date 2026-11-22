@@ -21,8 +21,6 @@ Building real websites for real businesses — schools, shops, salons, restauran
 - 🍽️ **Food & Catering** - Menu & Orders
 - 🏠 **Real Estate Platform** - Property Listings
 
-### 📊 My Stats
-![Patrick's GitHub Stats](https://github-readme-stats.vercel.app/api?username=-PATEG&show_icons=true&theme=dark)
 
 ### 📫 Let's Work Together
 - 📧 eguaobap@gmail.com
