@@ -21,9 +21,6 @@ Building real websites for real businesses — schools, shops, salons, restauran
 - 🍽️ **Food & Catering** - Menu & Orders
 - 🏠 **Real Estate Platform** - Property Listings
 
-👉 **Live Portfolio:** 
-https://django-portfolio.onrender.com
-
 ### 📊 My Stats
 ![Patrick's GitHub Stats](https://github-readme-stats.vercel.app/api?username=-PATEG&show_icons=true&theme=dark)
 
