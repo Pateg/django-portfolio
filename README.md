@@ -25,11 +25,11 @@ Building real websites for real businesses — schools, shops, salons, restauran
 https://django-portfolio.onrender.com
 
 ### 📊 My Stats
-![Patrick's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=dark)
+![Patrick's GitHub Stats](https://github-readme-stats.vercel.app/api?username=-PATEG&show_icons=true&theme=dark)
 
 ### 📫 Let's Work Together
 - 📧 eguaobap@gmail.com
-- 📱 WhatsApp: +234 811 342 4189
+- 📱 WhatsApp: +234 7026889752
 - 📘 Facebook: Patrick Eguaoba
 - 📸 Instagram: @patrick_eguaoba
 
