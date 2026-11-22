@@ -21,7 +21,8 @@ Building real websites for real businesses — schools, shops, salons, restauran
 - 🍽️ **Food & Catering** - Menu & Orders
 - 🏠 **Real Estate Platform** - Property Listings
 
-👉 **Live Portfolio:** https://pateg.pythonanywhere.com
+👉 **Live Portfolio:** 
+gitHub.com/Pateg/django-portfolio
 
 ### 📊 My Stats
 ![Patrick's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=dark)
