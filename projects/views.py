@@ -1,3 +1,5 @@
+from django.contrib import messages
+from django.shortcuts import render, redirect
 from rest_framework import viewsets, filters
 from .models import Project, Skill, Testimonial
 from .serializers import ProjectSerializer, SkillSerializer, TestimonialSerializer
@@ -40,3 +42,27 @@ def home(request):
         'testimonials': testimonials,
         'categories': categories,
     })
+
+def home(request):
+    return render(request, 'home.html')
+
+def about(request):
+    return render(request, 'about.html')
+
+def contact(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        subject = request.POST.get('subject')
+        message = request.POST.get('message')
+        # For now we just show success. Later we can email it to you.
+        print(f"NEW CONTACT: {name} - {email} - {subject} - {message}")
+        messages.success(request, f"Thanks {name}! Your message has been sent. I'll reply to {email} soon.")
+        return redirect('contact')
+    return render(request, 'contact.html')
+
+def projects(request):
+    return render(request, 'projects.html')
+
+def services(request):
+    return render(request, 'services.html')
